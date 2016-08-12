@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.askme.asus.growupmenu.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="#FF8F00"
+        android:id="@+id/driving"
+        android:src="@drawable/driving"
+        android:alpha="0.0"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="19dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/cycling"
+        android:alpha="0.0"
+        android:src="@drawable/cycling"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="19dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#558B2F"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/transit"
+        android:alpha="0.0"
+        android:src="@drawable/transit"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="19dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="#AB47BC"
+        android:id="@+id/walking"
+        android:alpha="0.0"
+        android:src="@drawable/walking"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="19dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="#2979FF"
+        android:id="@+id/show_route"
+        android:src="@drawable/directions"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="19dp"
+        />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
